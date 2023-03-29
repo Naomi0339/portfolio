@@ -357,7 +357,10 @@ footer h4 {
     font-size: 2em;
     font-weight: bold;
   }
-
+  .top_title img {
+    width: 100%;
+    margin: 0 auto;
+  }
   .top_image {
     display: flex;
   }
