@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- モバイルサイズのハンバーガーメニュー -->
+    <div class="menu_opener">
+      <div class="openbtn"><span></span><span></span><span></span></div>
+      <nav id="openbtn_nav">
+        <ul class="openbtn_nav_list">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">HISTORY</a></li>
+          <li><a href="#">SKILL</a></li>
+          <li><a href="#">DESIGN</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- PCサイズの横並びナビゲーション -->
+    <header>
+      
+      <div class="header_flex">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">HISTORY</a></li>
+          <li><a href="#">SKILL</a></li>
+          <li><a href="#">DESIGN</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="top_image">
+      <div class="mobile_none">
+        <img src="images/top_green_bear.png" alt="bear">
+      </div>
+      <div class="top_title">
+        <img src="images/top_title.png" alt="top_title" />
+      </div>
+    </div>
+
+    <section class="history">
+      <h2>HISTORY</h2>
+      <div class="container wrap">
+        <table>
+          <tr>
+            <td>2012年</td>
+            <td>○○大学大学院&emsp;修了</td>
+          </tr>
+          <tr>
+            <td>2012年～現在</td>
+            <td>病院や医療系会社に勤務し、妊娠中の方々の検体を用いた出生前診断に関わる臨床検査業務を行う</td>
+          </tr>
+          <tr>
+            <td>2022年9月～</td>
+            <td>ウェブスクール(テックスクール)でWebデザインを学ぶ</td>
+          </tr>
+        </table>
+        <p>現在は本業の仕事の傍ら、保育園に通う子供2人の子育てをしながら新しくWebデザインを学んでおります</p>
+      </div>
+        <img class="designphoto"  src="images/history.png" alt="history">
+    </section>
+    <section class="skill">
+      <h2>SKILL</h2>
+      <table class="container wrap">
+        <tr>
+          <td>コーディング</td>
+          <td>HTML、CSS、Javascript</td>
+        </tr>
+
+        <tr>
+          <td>デザイン</td>
+          <td>Canvaを使用したデザイン案の考案</td>
+        </tr>
+
+        <tr>
+          <td>WordPress</td>
+          <td>WordPressへのオリジナルデザインサイトの構築</td>
+        </tr>
+    </table>
+    <img class="designphoto" src="images/skill.png" alt="skill">
+    </section>
+    <section class="design">
+      <div class="container">
+        <h2>DESIGN</h2>
+        <h3>～これまでに作成したWeb制作～</h3>
+        <div class="design_content">
+          <div class="design_content_1">
+            <p>①スクールで学び始めて１か月ほど経過したときに作成したもの</p>
+            <img src="images/usamaru.png" alt="usamaru">
+          </div>
+          <div class="design_content_2">
+            <p>②架空の依頼を見立ててデザインの考案からコーディングまで行ったもの</p>
+            <img src="images/hisiimo.png" alt="hosiimo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2>CONTACT</h2>
+        <h3>～お仕事のご依頼はこちらから～</h3>
+
+        <div class="box_con03">
+          <form method="post" action="mail.php">
+          <table class="formTable">
+            <tr>
+              <th>お名前<span>必須</span></th>
+              <td><input size="20" type="text" class="wide" name="お名前" /></td>
+            </tr>
+            <tr>
+              <th>電話番号（半角）<span>必須</span></th>
+              <td><input size="30" type="text" class="wide" name="電話番号" /></td>
+            </tr>
+            <tr>
+              <th>Mail（半角）</th>
+              <td><input size="30" type="text" class="wide" name="Email" /></td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容<br /></th>
+              <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
+            </tr>
+          </table>
+          <p class="btn">
+              <span><input type="submit" value="　 送信 　" /></span>
+          </p>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <img src="images/footer_line.png" alt="footer_line">
+      <div class="footer_infomation">
+        <p><a href="#">HOME</a></p>
+        <p><a href="#">HISTORY</a></p>
+        <p><a href="#">DESIGN</a></p>
+        <p><a href="#">SKILL</a></p>
+        <p><a href="#">CONTACT</a></p>
+        <p><a href="#">PRIVACY POLICY</a></p>
+      </div>
+      <h4>&copy;2023 Naomi Shiga</h4>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
